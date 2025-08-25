@@ -3,8 +3,8 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/BeautyShop-Website/',
   plugins: [react()],
+  base : '/BeautyShop-Website',
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
